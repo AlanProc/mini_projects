@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tribute Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js">     </script>
+</head>
+<body>
+    <main id="main">
+        <div id="contact">
+            <img src="img/perfil_circle.png" alt="photo" style="width: 50px; position: relative;">
+
+            <a href="https://github.com/AlanProc" target="_blank"><img src="img/logo_github.png" alt="logo github" style="width: 50px; position: relative; left : 30px"></a>
+
+            <a href="https://www.linkedin.com/in/alan-proc/" target="_blank"><img src="img/logo_linkedin.png" alt="logo linkedin" style="width: 50px; position: relative; left : 60px"></a>
+ 
+            <a href="https://www.instagram.com/alanproen/" target="_blank"><img src="img/logo_insta.png" alt="logo instagram" style="width: 50px; position: relative; left : 90px"></a>
+        </div>
+        <div id="title">
+    <h1>Johann Sebastian Bach</h1>
+    <p class="phrase">The composer behind "Air" and "Joy"</p>
+</div>
+<figure id="img-div">
+   <audio src="air-on-g-string.mp3" id="myAudio"></audio>
+<img  onClick="playMyAudio()" id="image" src='img/main_normal.jpg'  onmouseover="this.src='img/main_bglass2.jpg'" onmouseout="this.src='img/main_normal.jpg'" />
+
+    <figcaption id="img-caption" style="text-shadow: 1px 1px 10px rgb(0, 0, 255)">
+        Bach was a German composer and musician of the late Baroque period. He is known for his orchestral music such as the Brandenburg Concertos; instrumental compositions such as the Cello Suites; keyboard works such as the Goldberg Variations and The Well-Tempered Clavier; organ works such as the Schubler Chorales and the Toccata and Fugue in D minor; and vocal music such as the St Matthew Passion and the Mass in B minor. Since the 19th-century Bach Revival, he has been generally regarded as one of the greatest composers in the history of Western music.
+    </figcaption>
+</figure><br>
+<p style="font-size: 26px; text-align: center; color:white; text-shadow: 2px 2px 5px rgb(0, 0, 0)" ><strong>7 of Bach's all-time best pieces of music</strong></p><br>
+<ol id="tribute-info" style="font-size: 26px; color:black; text-align:center">
+    <li><a href="https://www.youtube.com/watch?v=NCPM8DEsvmc"> The Brandenburg Concertos </li></a><br>
+    <li><a href="https://www.youtube.com/watch?v=15ezpwCHtJs"> The Goldberg Variations </li></a><br>
+    <li><a href="https://www.youtube.com/watch?v=ILKJcsET-NM"> Concerto for Two Violins in D minor </li></a><br>
+    <li><a href="https://www.youtube.com/watch?v=ezZdbzreNcs"> The Well-Tempered Clavier </li></a><br>
+    <li><a href="https://www.youtube.com/watch?v=2Zx1RnrQm4w"> St Matthew Passion </li></a><br>
+    <li><a href="https://www.youtube.com/watch?v=ho9rZjlsyYY"> Toccata and Fugue in D minor </li></a><br>
+    <li><a href="https://www.youtube.com/watch?v=D83cMncj_Ig"> Six Suites for Solo Cello </li></a><br>
+</ol>
+<footer>
+<a id="tribute-link" href="https://en.wikipedia.org/wiki/Johann_Sebastian_Bach" target="_blank">For more information, click here !</a>
+</footer>
+</main>
+</body>
+</html>
