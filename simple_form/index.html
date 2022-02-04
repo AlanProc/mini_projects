@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario de pesquisa</title>
+</head>
+<body>
+    <div id="contact">
+        <img src="img/perfil_circle.jpg" alt="photo" style="height: 50px;">
+
+        <a href="https://github.com/AlanProc" target="_blank"><img src="img/logo_github.jpg" alt="logo github" style="height: 50px; padding-left: 30px"></a>
+
+        <a href="https://www.linkedin.com/in/alan-proc/" target="_blank"><img src="img/logo_linkedin.jpg" alt="logo linkedin" style="height: 50px; padding-left: 30px"></a>
+
+        <a href="https://www.instagram.com/alanproen/" target="_blank"><img src="img/logo_insta.jpg" alt="logo instagram" style="height: 50px; padding-left: 30px"></a>
+    </div>
+
+    <header class="container">
+    <h1 id="title"> Aquisição de cursos gratuitos</h1><img src="img/coding.gif" />
+    <p id="description"> Preencha o formulário abaixo para concorrer ! </p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name"> Nome </label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Digite seu nome" style="width:100%;" required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email"> E-mail </label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail" style="width:100%;" required>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number"> Idade </label>
+            <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Digite sua idade" style="width:100%;" required>
+        </div>
+        <div class="form-group">
+            <p>Qual a sua escolaridade ?</p>
+            <select id="dropdown" name="role" class="form-control" style="width:100%;" required>
+                <option disabled selected value> Seleciona sua escolaridade </option>
+                <option value="ensinofundamental"> Ensino fundamental concluído </option>
+                <option value="ensinomedio1"> Ensino médio cursando </option>
+                <option value="ensinomedio2"> Ensino médio concluído </option>
+                <option value="ensinosuperior1"> Ensino superior cursando </option>
+                <option value="ensinosuperior2"> Ensino superior concluído </option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Como ficou sabendo desta oportunidade ?</p>
+            <label>
+                <input name="conheceu" value="whatsapp" type="radio" class="input-radio" checked>
+                What's app
+            </label><br>
+            <label>
+                <input name="conheceu" value="facebook" type="radio" class="input-radio">
+                Facebook
+            </label><br>
+            <label>
+                <input name="conheceu" value="conhecidos" type="radio" class="input-radio">
+                Amigos / Parentes
+            </label><br>
+            <div class="form-group">
+                <p>Escolha quais cursos você deseja concorrer as vagas : 
+                <span class="clue"> </span></p>
+                <label>
+                    <input name="prefer" value="word" type="checkbox" class="input-checkbox">
+                Word</label><br>
+                <label>
+                    <input name="prefer" value="powerpoint" type="checkbox" class="input-checkbox">
+                Power Point</label><br>
+                <label>
+                    <input name="prefer" value="excel" type="checkbox" class="input-checkbox">
+                Excel</label><br>
+                <label>
+                    <input name="prefer" value="vba" type="checkbox" class="input-checkbox">
+                VBA</label><br>
+                <label>
+                    <input name="prefer" value="powerbi" type="checkbox" class="input-checkbox">
+                Power BI</label><br>
+                <label>
+                    <input name="prefer" value="redes" type="checkbox" class="input-checkbox">
+                Redes de computadores</label><br>
+                <label>
+                    <input name="prefer" value="htmlcss" type="checkbox" class="input-checkbox">
+                HTML e CSS</label><br>
+                <label>
+                    <input name="prefer" value="javascript" type="checkbox" class="input-checkbox">
+                JavaScript</label><br>
+                <label>
+                    <input name="prefer" value="photoshop" type="checkbox" class="input-checkbox">
+                PhotoShop</label><br>
+                <label>
+                    <input name="prefer" value="coreldraw" type="checkbox" class="input-checkbox">
+                CorelDraw</label><br>
+                <label>
+                    <input name="prefer" value="cyberseguranca" type="checkbox" class="input-checkbox">
+                Cyber Segurança</label><br>
+            </div>
+            <div class="form-group">
+                <p> Você gostaria de deixar alguma observação ?</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Insira sua observação aqui..." style="width:100%; height:80px"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button"> Enviar </button>
+            </div>
+        </form>
+        </div>
+</body>
+</html>

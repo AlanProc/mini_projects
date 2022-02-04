@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif, arial;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    margin: 0;
+    text-align: center;
+    background-image: url("../img/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-width: 800px;
+    max-width: 1600px;
+}
+#contact {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border-radius: 26px;
+    margin: 0;
+}
+div {
+    display: block;
+}
+form {
+    padding: 2.5rem;
+    background: rgb(22, 22, 66, 0.85);
+    border-radius: 0.25rem;
+    margin-left:33%;
+    margin-right:33%;
+    text-align: left;
+}
+button {
+    background-color: #FAFAA8;
+    font-size: 22px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: silver;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #ffc299;
+}
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
