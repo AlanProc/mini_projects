@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- definindo o documento do tipo html  -->
+<html lang="en" class=""> <!-- elemento raiz(root) lang(language) do root -->
+  <head> <!-- ajusta configurações não visíveis para os usuários da página(exceção : título) -->
+    <meta charset="UTF-8"> <!-- define conjuntos de caracteres utilizados na página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- define que a -->
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="assets/profile1.jpg" alt ="legenda da imagem">
+        <p>Alan Proença</p>
+        <p class="subtitle">Consultor de negócios || Analista de dados</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button>
+          <!-- <img src="assets/computer.png" alt="ícone de um desktop"> -->
+        </button>
+      </div>
+      <ul>
+            <li><a href="#"target="_blank"> Power BI </a></li>
+            <li><a href="#"target="_blank"> Excel/VBA </a></li>
+            <li><a href="#"target="_blank"> SQL </a></li>
+            <li><a href="#"target="_blank"> Python </a></li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/AlanProc" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/alan-proc/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          
+        <a href="https://www.instagram.com/alanproen/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+      </div>
+      <footer>Feito por Alan Proença em 23/03/2024</footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+    <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
